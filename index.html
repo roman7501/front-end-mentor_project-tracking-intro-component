@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Project tracking intro component</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <img src="./images/logo.svg" alt="" />
+        <button class="toggle-menu-mobile" id="toggle-menu-mobile" aria-label="Open the menu">
+          <img
+            src="./images/icon-hamburger.svg"
+            alt="menu"
+            aria-hidden="true"
+            id="burger-icon"
+            class="burger-icon show"
+          />
+          <img src="./images/icon-close.svg" alt="menu" aria-hidden="true" id="close-icon" class="close-icon" />
+        </button>
+        <ul class="flex-nav" id="menu">
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li>
+            <span class="separator"></span>
+          </li>
+          <li class="login"><a href="#">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="flex">
+      <div class="hero-img">
+        <img src="./images/illustration-devices.svg" alt="" />
+      </div>
+      <div class="container main">
+        <div class="headlines">
+          <span class="tag1">
+            <p>New</p>
+          </span>
+          <p class="tag2">Monograph Dashboard</p>
+        </div>
+        <h1>Powerful insights into your team</h1>
+        <p class="desc">Project planning and time tracking for agile teams</p>
+        <div class="ctas">
+          <a href="#" class="cta">Schedule a demo</a>
+          <p class="cta-desc">to see a live preview</p>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
